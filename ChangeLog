@@ -1,6 +1,18 @@
 CHANGES
 =======
 
+0.10.0
+------
+
+* Removed older version of python added 3.5
+* clean up CUDA traits
+* add python 3.6 unit test job
+* switch documentation job to new PTI
+* import zuul job settings from project-config
+* Add CUDA versions 8 and 9
+* Update reno for stable/rocky
+* fix tox python3 overrides
+
 0.9.0
 -----
 
