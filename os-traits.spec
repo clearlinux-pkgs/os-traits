@@ -4,7 +4,7 @@
 #
 Name     : os-traits
 Version  : 0.10.0
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/06/12/f65ac71a4251ae34ace13b6cfdcf15ccade507d169ce764bc704340d5bf4/os-traits-0.10.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/06/12/f65ac71a4251ae34ace13b6cfdcf15ccade507d169ce764bc704340d5bf4/os-traits-0.10.0.tar.gz
 Summary  : A library containing standardized trait strings
@@ -66,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1540478706
+export SOURCE_DATE_EPOCH=1541271267
 python3 setup.py build
 
 %install
