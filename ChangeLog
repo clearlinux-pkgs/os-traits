@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+0.11.0
+------
+
+* Add HW\_CPU\_AMD\_SEV trait
+* Add new traits for TPM support
+* Update hacking version to latest
+* Update author-email in setup.cfg
+
 0.10.0
 ------
 
