@@ -1,6 +1,15 @@
 CHANGES
 =======
 
+0.12.0
+------
+
+* Add contextual comment about image type traits
+* Add COMPUTE\_IMAGE\_TYPE\_\* traits
+* Update master for stable/stein
+* Update bug links for storyboard
+* Change python3.5 job to python3.7 job on Stein+
+
 0.11.0
 ------
 
