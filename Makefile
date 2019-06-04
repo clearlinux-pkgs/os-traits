@@ -1,5 +1,5 @@
 PKG_NAME := os-traits
-URL = https://files.pythonhosted.org/packages/81/c6/d125fd8b5ba99393376a96f91ada37c5feb404bb543aa94c7e0483f06e06/os-traits-0.12.0.tar.gz
+URL = https://files.pythonhosted.org/packages/01/e0/1700fb7a60baa4ccffdbed54edd730bcc81ded8af63111ae947053637472/os-traits-0.13.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

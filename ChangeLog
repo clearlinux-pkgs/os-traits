@@ -1,6 +1,16 @@
 CHANGES
 =======
 
+0.13.0
+------
+
+* hw: cpu: Rework the directory layout; add missing traits
+* Replace git.openstack.org URLs with opendev.org URLs
+* Update SEV trait docs to avoid misleading people
+* Document policy of never removing traits
+* Dropping the py35 testing
+* OpenDev Migration Patch
+
 0.12.0
 ------
 
