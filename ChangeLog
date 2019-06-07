@@ -1,6 +1,11 @@
 CHANGES
 =======
 
+0.14.0
+------
+
+* Create trait for NUMA subtree affinity
+
 0.13.0
 ------
 
