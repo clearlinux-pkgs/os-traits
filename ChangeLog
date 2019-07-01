@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+0.15.0
+------
+
+* Add COMPUTE\_STATUS\_DISABLED trait
+* add GOP, NONE and VIRTIO grapics models
+* add libvirt image metadata traits
+* Sync Sphinx requirement
+
 0.14.0
 ------
 
