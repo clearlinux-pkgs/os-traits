@@ -1,6 +1,13 @@
 CHANGES
 =======
 
+0.16.0
+------
+
+* Add new traits to flag live migration features
+* CPU: add a trait for AVX512-VNNI support
+* Add Python 3 Train unit tests
+
 0.15.0
 ------
 
