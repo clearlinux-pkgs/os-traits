@@ -1,6 +1,16 @@
 CHANGES
 =======
 
+1.0.0
+-----
+
+* Privatize and reorganize base package methods
+* Add method to visualize the os-traits tree
+* Build pdf docs
+* Update README to be a bit more clear
+* Add support for ppc64le platforms
+* Followup: spec ref for auto-converge/post-copy
+
 0.16.0
 ------
 
