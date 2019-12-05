@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+2.0.0
+-----
+
+* Add 'TYPE\_PLOOP' image type
+* Stop testing with py2 and switch to ussuri jobs
+
 1.1.0
 -----
 
