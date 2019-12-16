@@ -1,6 +1,11 @@
 CHANGES
 =======
 
+2.1.0
+-----
+
+* Add COMPUTE\_SAME\_HOST\_COLD\_MIGRATE trait
+
 2.0.0
 -----
 
