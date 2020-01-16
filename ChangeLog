@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+2.2.0
+-----
+
+* Add a trait that compute manager can handle accelerator requests
+* Add COMPUTE\_RESCUE\_BFV trait
+
 2.1.0
 -----
 
