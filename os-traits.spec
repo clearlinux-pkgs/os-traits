@@ -4,7 +4,7 @@
 #
 Name     : os-traits
 Version  : 2.2.0
-Release  : 21
+Release  : 22
 URL      : https://files.pythonhosted.org/packages/40/b7/f2785434b5e94c07bb947c0898c94278f869b89217fbb7238600055d9acb/os-traits-2.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/40/b7/f2785434b5e94c07bb947c0898c94278f869b89217fbb7238600055d9acb/os-traits-2.2.0.tar.gz
 Summary  : A library containing standardized trait strings
@@ -20,24 +20,15 @@ BuildRequires : pbr
 BuildRequires : six
 
 %description
-=========
 os-traits
-=========
-
-`os-traits` is an OpenStack library containing standardized trait strings.
-
-Traits are strings that represent a feature of a resource provider hosted by
-the Placement_ service. This library contains the catalog of constants that
-have been standardized in the OpenStack community to refer to a particular
-hardware, virtualization, storage, network, or device trait.
-
-* Free software: Apache license
-* Documentation: https://docs.openstack.org/os-traits/latest/
-* Source: http://opendev.org/openstack/os-traits
-* Bugs: https://storyboard.openstack.org/#!/project/openstack/os-traits
-* Release Notes: https://docs.openstack.org/releasenotes/os-traits
-
-.. _Placement: https://docs.openstack.org/placement/latest/
+        =========
+        
+        `os-traits` is an OpenStack library containing standardized trait strings.
+        
+        Traits are strings that represent a feature of a resource provider hosted by
+        the Placement_ service. This library contains the catalog of constants that
+        have been standardized in the OpenStack community to refer to a particular
+        hardware, virtualization, storage, network, or device trait.
 
 %package license
 Summary: license components for the os-traits package.
@@ -60,7 +51,9 @@ python components for the os-traits package.
 Summary: python3 components for the os-traits package.
 Group: Default
 Requires: python3-core
-Provides: pypi(os-traits)
+Provides: pypi(os_traits)
+Requires: pypi(pbr)
+Requires: pypi(six)
 
 %description python3
 python3 components for the os-traits package.
@@ -75,8 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583195757
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583538591
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
