@@ -4,7 +4,7 @@
 #
 Name     : os-traits
 Version  : 2.2.0
-Release  : 22
+Release  : 23
 URL      : https://files.pythonhosted.org/packages/40/b7/f2785434b5e94c07bb947c0898c94278f869b89217fbb7238600055d9acb/os-traits-2.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/40/b7/f2785434b5e94c07bb947c0898c94278f869b89217fbb7238600055d9acb/os-traits-2.2.0.tar.gz
 Summary  : A library containing standardized trait strings
@@ -20,15 +20,10 @@ BuildRequires : pbr
 BuildRequires : six
 
 %description
+=========
 os-traits
-        =========
-        
-        `os-traits` is an OpenStack library containing standardized trait strings.
-        
-        Traits are strings that represent a feature of a resource provider hosted by
-        the Placement_ service. This library contains the catalog of constants that
-        have been standardized in the OpenStack community to refer to a particular
-        hardware, virtualization, storage, network, or device trait.
+=========
+`os-traits` is an OpenStack library containing standardized trait strings.
 
 %package license
 Summary: license components for the os-traits package.
@@ -68,7 +63,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583538591
+export SOURCE_DATE_EPOCH=1583539673
+# -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
