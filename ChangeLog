@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+2.3.0
+-----
+
+* Switch to hacking 2.x
+* Remove use of six
+* setup.cfg: Remove unused 'build\_sphinx' configuration
+* setup.cfg: Configure 'python-requires'
+
 2.2.0
 -----
 
