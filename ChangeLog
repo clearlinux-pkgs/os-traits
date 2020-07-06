@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+2.4.0
+-----
+
+* Switch to newer openstackdocstheme and reno versions
+* CPU: add traits for new AVX512 support
+* Fix hacking min version to 3.0.1
+* Cleanup py27 support
+
 2.3.0
 -----
 
