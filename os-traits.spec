@@ -4,7 +4,7 @@
 #
 Name     : os-traits
 Version  : 2.4.0
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/68/4d/3c7e46c340e55adb0933f1644d5a2f06024bfe34b3b71f3ce54d434119fa/os-traits-2.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/68/4d/3c7e46c340e55adb0933f1644d5a2f06024bfe34b3b71f3ce54d434119fa/os-traits-2.4.0.tar.gz
 Summary  : A library containing standardized trait strings
